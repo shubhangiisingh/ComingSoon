@@ -1,0 +1,27 @@
+.fullscreen {
+  width: 100vw; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullscreen-video {
+  display: none; 
+  max-width: 100%; 
+  max-height: 100%;
+}
+
+@media (min-width: 768px) {
+  
+  .desktop-video {
+    display: block; 
+  }
+}
+
+@media (max-width: 767px) {
+  
+  .smartphone-video {
+    display: block; 
+  }
+}
